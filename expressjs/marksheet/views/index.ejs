@@ -1,0 +1,23 @@
+<html>
+<h2> Result of:<%= name%></h2>
+<br>
+<br>
+<p> Physics:<%= physics%></p><br>
+<p> Chemistry:<%= chemistry%><p> <br>
+<p> Maths:<%= maths%><p> <br>
+
+<%
+let total=parseInt(physics)+parseInt(chemistry)+parseInt(maths);
+let per=total*100/300;
+%>
+<p> Total Marks:<%= total %></p> <br>
+<p> Percentage:<%= per %></p> <br>
+<% if (per>=60) {%>
+You have passed the exam
+<% }
+else
+    {
+        %>
+<font color='red'> <b> You have failed the exam </b> </font>
+<% } %>
+</html>

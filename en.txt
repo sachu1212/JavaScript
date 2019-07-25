@@ -1,0 +1,17 @@
+<html>
+    <h2>DATA ENTRY FORM</h2>
+    <form action="insertRecord" method="POST">
+        <label>P No.</label>
+        <input type="text" name="pno"><br>
+        <label>Name</label>
+        <input type="text" name="name"><br>
+        <label>Email</label>
+        <input type="text" name="email"><br>
+        <label>TelNo</label>
+        <input type="text" name="telephone"><br>
+        <label>DepId</label>
+        <input type="text" name="deptid"><br>
+        <input type="submit" value="submit">
+
+    </form>
+</html>

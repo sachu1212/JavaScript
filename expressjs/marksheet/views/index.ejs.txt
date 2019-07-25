@@ -1,0 +1,8 @@
+<html>
+<p>name<%=name%></P><br>
+<p>Physics:<%=physics%></P>
+<p>Chemistry:<%=chemistry%></P>
+<p>Maths:<%=maths%></P>
+<p>total:<%physics+maths+chemistry%></P>
+<p>percentage:<%(physics+maths+chemistry)*100/300%></P>
+</html>
